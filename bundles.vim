@@ -84,6 +84,7 @@ Bundle 'tpope/vim-markdown'
 
 "------- Go ----------
 Bundle 'fatih/vim-go'
+Bundle 'Blackrush/vim-gocode'
 
 "------- FPs ------
 Bundle 'kien/rainbow_parentheses.vim'
