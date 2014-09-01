@@ -213,6 +213,7 @@ nnoremap <leader>v V`]
 let mapleader = ','
 nmap <leader>k :NERDTreeToggle<cr>
 nmap <leader>t :TagbarToggle<cr>
+vmap <c-c> "+y
 
 "------------------
 " Useful Functions
