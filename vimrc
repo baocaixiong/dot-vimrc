@@ -26,6 +26,8 @@ set incsearch
 "set highlight 	" conflict with highlight current line
 set ignorecase
 set smartcase
+set noswapfile
+set nobackup
 
 " editor settings
 set history=1000
@@ -207,6 +209,10 @@ nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
 nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
+
+let mapleader = ','
+nmap <leader>k :NERDTreeToggle<cr>
+nmap <leader>t :TagbarToggle<cr>
 
 "------------------
 " Useful Functions
