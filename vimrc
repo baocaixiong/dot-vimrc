@@ -48,6 +48,7 @@ set laststatus=2                                                  " use 2 lines 
 set matchtime=2                                                   " show matching bracket for 0.2 seconds
 set matchpairs+=<:>                                               " specially for html
 set relativenumber
+set autoread
 
 " Default Indentation
 set autoindent
@@ -106,6 +107,7 @@ let g:Tb_MaxSize = 2
 let g:Tb_TabWrap = 1
 nmap <C-u> :Tbbp<cr>
 nmap <C-i> :Tbbn<cr>
+nmap <C-o> :Tbbd<cr>
 
 hi Tb_Normal guifg=white ctermfg=white
 hi Tb_Changed guifg=green ctermfg=green
